@@ -1,0 +1,13 @@
+builder.add_edge("planner","sql")
+
+builder.add_edge("sql","analysis")
+
+builder.add_edge("analysis","visualization")
+
+builder.add_edge("visualization","insight")
+
+builder.add_edge("insight","report")
+
+builder.add_edge("report","memory")
+
+builder.add_edge("memory",END)
