@@ -1,0 +1,11 @@
+Runs SQL
+
+Returns dataframe
+
+Month      Sales
+
+Jan        52000
+
+Feb        61000
+
+Mar        47000
