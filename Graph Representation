@@ -1,0 +1,13 @@
+builder.add_node("planner", planner_agent)
+
+builder.add_node("sql", sql_agent)
+
+builder.add_node("analysis", analysis_agent)
+
+builder.add_node("visualization", visualization_agent)
+
+builder.add_node("insight", insight_agent)
+
+builder.add_node("report", report_agent)
+
+builder.add_node("memory", memory_agent)
