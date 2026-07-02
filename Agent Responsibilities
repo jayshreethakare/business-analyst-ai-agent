@@ -1,0 +1,7 @@
+Show me monthly sales for 2025.
+{
+ "task":"monthly_sales",
+ "need_sql":true,
+ "need_chart":true,
+ "need_summary":true
+}
