@@ -1,0 +1,30 @@
+                    ┌──────────────────────────┐
+                    │      User Question       │
+                    └────────────┬─────────────┘
+                                 │
+                                 ▼
+                    ┌──────────────────────────┐
+                    │     Planner Agent        │
+                    │ Understand the request   │
+                    └────────────┬─────────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              ▼                  ▼                  ▼
+      SQL Agent          Data Analysis Agent   Visualization Agent
+Generate SQL Query       Execute SQL           Select Best Chart
+              │                  │                  │
+              └──────────────────┼──────────────────┘
+                                 ▼
+                      Insight Generation Agent
+                Explain KPIs, Trends & Anomalies
+                                 │
+                                 ▼
+                        Report Generation Agent
+               Executive Summary + PDF + CSV Export
+                                 │
+                                 ▼
+                          Memory Agent
+             Store previous questions & responses
+                                 │
+                                 ▼
+                        Return Final Response
