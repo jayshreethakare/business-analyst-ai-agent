@@ -1,0 +1,11 @@
+Receive
+monthly_sales
+
+Generates
+
+SELECT
+strftime('%Y-%m',OrderDate) Month,
+SUM(Sales) TotalSales
+FROM Sales
+GROUP BY Month
+ORDER BY Month;
